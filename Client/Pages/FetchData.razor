@@ -23,7 +23,7 @@ else
       try
       {
         //Http.BaseAddress = new Uri("http://localhost:7071/");
-        result = await Http.GetStringAsync("http://localhost:7071/api/test") ?? "";
+        result = await Http.GetStringAsync("/api/test") ?? "";
       }
       catch (Exception ex)
       {
